@@ -352,20 +352,13 @@ body {
   /* navbar */
   .navbar {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
-  max-width: 100%;
-  height: 70px;
-  padding: 0 10px;
-  background: #ffffff;
-  margin: 0 auto;
-  top: 0;
+  justify-content: center;
   }
 
   .logo-head {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 .stat {
