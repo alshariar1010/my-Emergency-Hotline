@@ -349,9 +349,6 @@ body {
   .grid {
     grid-template-columns: 1fr
   }
-  body{
-    overflow: hidden;
-  }
   /* navbar */
   .navbar {
   display: flex;
