@@ -269,11 +269,18 @@ body {
   flex: 1;
   padding: 8px 10px;
   border-radius: 8px;
-  border: 1px solid #e6efe7;
+  border: 1px solid #D4D6D5;
   cursor: pointer;
   font-weight: 600;
 }
-
+.btn2{
+  font-size: medium;
+  padding: 14px 36px;
+  color: white;
+  background-color: #00A63E;
+  border: none;
+  border-radius: 50px;
+}
 .btn.copy {
   display: flex;
   align-items: center;
@@ -283,17 +290,17 @@ body {
 }
 
 .btn.call {
-  background: green;
+  background: #00A63E;
   color: white;
   border: none;
 }
 
 /* History style */
 .history {
-  background: #fff;
+  background: white;
   border-radius: 10px;
   padding: 14px;
-  box-shadow: 0 6px 18px rgba(14, 49, 30, 0.04);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
 }
 
 .history-head {
@@ -322,10 +329,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fbfffb;
-  padding: 8px 10px;
+  background: #FAFAFA;
+  padding: 16px;
   border-radius: 8px;
-  border: 1px solid #f0faf0;
+  border: none;
   font-size: 14px;
 }
 
