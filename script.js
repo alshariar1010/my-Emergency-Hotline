@@ -1,9 +1,9 @@
-// == State ==
+// State
 let coins = 100;
 let heartCount = 0;
-let copyCount = 2;
+let copyCount = 0;
 
-// == Elements ==
+//Elements
 const coinEl = document.getElementById('coin-count');
 const heartEl = document.getElementById('heart-count');
 const copyEl = document.getElementById('copy-count');
@@ -75,7 +75,7 @@ async function copyText(text){
 
 function callService(name, number){
   if (coins < 20) {
-    showAlert('Not enough coins to make a call. Each call costs 20 coins.');
+    showAlert('আপনার পর্যাপ্ত কয়েন নেই, call দিতে খরচ হবে ২০ কয়েন।');
     return;
   }
   coins -= 20;
@@ -116,7 +116,7 @@ document.querySelectorAll('.card').forEach(card => {
 });
 
 clearBtn.addEventListener('click', () => {
-  historyList.innerHTML = '<div style="color:var(--muted);font-size:13px;padding:8px 4px">No calls yet.</div>';
+  historyList.innerHTML = '<div style="color:font-size:13px;padding:8px 4px">No calls yet.</div>';
 });
 
 updateNavbar();
